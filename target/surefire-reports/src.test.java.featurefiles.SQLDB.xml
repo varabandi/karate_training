@@ -1,0 +1,10 @@
+<testsuite failures="0" name="src/test/java/featurefiles/SQLDB.feature" skipped="0" tests="1" time="0.532934">
+  <testcase classname="src.test.java.featurefiles.SQLDB" name="insert statement test case" time="0.532934">
+    <system-out>* def db = Java.type("misc.MyDbUtil") ..................................... passed
+* def res = db.insertStatement("insert into tools values(9149,'test','req')") . passed
+* print res ............................................................... passed
+* match res == "Success" .................................................. passed
+* def result = db.selectStatement("select * from tools") .................. passed
+* print "result----", result .............................................. passed</system-out>
+  </testcase>
+</testsuite>

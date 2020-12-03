@@ -1,0 +1,21 @@
+19:25:56.984 [main]  INFO  com.intuit.karate.Main - Karate version: 0.9.6
+19:25:57.609 [main]  ERROR com.intuit.karate.core.FeatureParser - syntax error: mismatched input '"' expecting <EOF>
+19:25:57.609 [main]  ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: featurefiles/Karate13.feature - mismatched input '"' expecting <EOF>
+19:25:57.609 [main]  ERROR com.intuit.karate.Runner - karate parallel runner failed: 
+19:25:57.671 [ForkJoinPool-1-worker-1]  INFO  com.intuit.karate - from karate config file 
+19:25:57.671 [ForkJoinPool-1-worker-1]  ERROR com.intuit.karate - javascript function call failed: java.lang.RuntimeException: java.nio.channels.ClosedByInterruptException
+19:25:57.671 [ForkJoinPool-1-worker-1]  ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: java.nio.channels.ClosedChannelException
+19:27:10.593 [main]  INFO  com.intuit.karate.Main - Karate version: 0.9.6
+19:27:11.203 [main]  ERROR com.intuit.karate.core.FeatureParser - syntax error: mismatched input '"' expecting <EOF>
+19:27:11.203 [main]  ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: featurefiles/Karate13.feature - mismatched input '"' expecting <EOF>
+19:27:11.203 [main]  ERROR com.intuit.karate.Runner - karate parallel runner failed: 
+19:27:11.281 [ForkJoinPool-1-worker-1]  INFO  com.intuit.karate - from karate config file 
+19:27:11.281 [ForkJoinPool-1-worker-1]  ERROR com.intuit.karate - javascript function call failed: java.lang.RuntimeException: java.nio.channels.ClosedByInterruptException
+19:27:11.281 [ForkJoinPool-1-worker-1]  ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: java.nio.channels.ClosedChannelException
+19:35:04.124 [main]  INFO  com.intuit.karate.Main - Karate version: 0.9.6
+19:35:04.734 [main]  ERROR com.intuit.karate.core.FeatureParser - syntax error: mismatched input '"' expecting <EOF>
+19:35:04.734 [main]  ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: featurefiles/Karate13.feature - mismatched input '"' expecting <EOF>
+19:35:04.734 [main]  ERROR com.intuit.karate.Runner - karate parallel runner failed: 
+19:35:04.796 [ForkJoinPool-1-worker-1]  INFO  com.intuit.karate - from karate config file 
+19:35:04.796 [ForkJoinPool-1-worker-1]  ERROR com.intuit.karate - javascript function call failed: java.lang.RuntimeException: java.nio.channels.ClosedByInterruptException
+19:35:04.796 [ForkJoinPool-1-worker-1]  ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: java.nio.channels.ClosedChannelException

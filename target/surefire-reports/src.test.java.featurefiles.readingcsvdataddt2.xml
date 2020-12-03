@@ -1,0 +1,72 @@
+<testsuite failures="0" name="src/test/java/featurefiles/readingcsvdataddt2.feature" skipped="0" tests="5" time="0.029181">
+  <testcase classname="src.test.java.featurefiles.readingcsvdataddt2" name="CSV data driven testing" time="0.009598">
+    <system-out>* def data = read('data.csv') ............................................. passed
+* print "1000, viswa, 40" ................................................. passed
+* def json1 = { "Last_name" : viswa} ...................................... passed
+* print json1 ............................................................. passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.featurefiles.readingcsvdataddt2" name="CSV data driven testing" time="0.005113">
+    <system-out>* def data = read('data.csv') ............................................. passed
+* print "1000, viswa, 40" ................................................. passed
+* def json1 = { "Last_name" : viswa} ...................................... passed
+* print json1 ............................................................. passed
+* def data = read('data.csv') ............................................. passed
+* print "2000, nath, 41" .................................................. passed
+* def json1 = { "Last_name" : nath} ....................................... passed
+* print json1 ............................................................. passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.featurefiles.readingcsvdataddt2" name="CSV data driven testing" time="0.004985">
+    <system-out>* def data = read('data.csv') ............................................. passed
+* print "1000, viswa, 40" ................................................. passed
+* def json1 = { "Last_name" : viswa} ...................................... passed
+* print json1 ............................................................. passed
+* def data = read('data.csv') ............................................. passed
+* print "2000, nath, 41" .................................................. passed
+* def json1 = { "Last_name" : nath} ....................................... passed
+* print json1 ............................................................. passed
+* def data = read('data.csv') ............................................. passed
+* print "3000, reddy, 42" ................................................. passed
+* def json1 = { "Last_name" : reddy} ...................................... passed
+* print json1 ............................................................. passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.featurefiles.readingcsvdataddt2" name="CSV data driven testing" time="0.004863">
+    <system-out>* def data = read('data.csv') ............................................. passed
+* print "1000, viswa, 40" ................................................. passed
+* def json1 = { "Last_name" : viswa} ...................................... passed
+* print json1 ............................................................. passed
+* def data = read('data.csv') ............................................. passed
+* print "2000, nath, 41" .................................................. passed
+* def json1 = { "Last_name" : nath} ....................................... passed
+* print json1 ............................................................. passed
+* def data = read('data.csv') ............................................. passed
+* print "3000, reddy, 42" ................................................. passed
+* def json1 = { "Last_name" : reddy} ...................................... passed
+* print json1 ............................................................. passed
+* def data = read('data.csv') ............................................. passed
+* print "4000, chetu, 13" ................................................. passed
+* def json1 = { "Last_name" : chetu} ...................................... passed
+* print json1 ............................................................. passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.featurefiles.readingcsvdataddt2" name="CSV data driven testing" time="0.00462">
+    <system-out>* def data = read('data.csv') ............................................. passed
+* print "1000, viswa, 40" ................................................. passed
+* def json1 = { "Last_name" : viswa} ...................................... passed
+* print json1 ............................................................. passed
+* def data = read('data.csv') ............................................. passed
+* print "2000, nath, 41" .................................................. passed
+* def json1 = { "Last_name" : nath} ....................................... passed
+* print json1 ............................................................. passed
+* def data = read('data.csv') ............................................. passed
+* print "3000, reddy, 42" ................................................. passed
+* def json1 = { "Last_name" : reddy} ...................................... passed
+* print json1 ............................................................. passed
+* def data = read('data.csv') ............................................. passed
+* print "4000, chetu, 13" ................................................. passed
+* def json1 = { "Last_name" : chetu} ...................................... passed
+* print json1 ............................................................. passed
+* def data = read('data.csv') ............................................. passed
+* print "5000, kalya, 12" ................................................. passed
+* def json1 = { "Last_name" : kalya} ...................................... passed
+* print json1 ............................................................. passed</system-out>
+  </testcase>
+</testsuite>

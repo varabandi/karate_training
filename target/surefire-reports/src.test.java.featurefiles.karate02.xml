@@ -1,0 +1,7 @@
+<testsuite failures="0" name="src/test/java/featurefiles/karate02.feature" skipped="0" tests="1" time="0.076673">
+  <testcase classname="src.test.java.featurefiles.karate02" name="json test case 1" time="0.076673">
+    <system-out>Given def json =  { name: 'Billie', scores: [2, 5] } ...................... passed
+Then print json ........................................................... passed
+* assert json.scores[1] == 5 .............................................. passed</system-out>
+  </testcase>
+</testsuite>

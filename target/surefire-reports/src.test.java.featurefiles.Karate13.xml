@@ -1,0 +1,20 @@
+<testsuite failures="1" name="src/test/java/featurefiles/Karate13.feature" skipped="0" tests="1" time="0.005133">
+  <testcase classname="src.test.java.featurefiles.Karate13" name="Non Static variable TC" time="0.005133">
+    <failure message="Karate13.feature:10 - evaluation (js) failed: function()&#10;{&#10;  var tmp = Java.type('misc.automationConstants');&#10;  var constants = new tmp();&#10;  return Java.type('misc.automationConstants').QAurl) ;, javax.script.ScriptException: &lt;eval&gt;:5:52 Expected ; but found )&#13;&#10;  return Java.type('misc.automationConstants').QAurl) ;&#13;&#10;                                                    ^ in &lt;eval&gt; at line number 5 at column number 52&#10;stack trace: jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:470)">* def env1 = .............................................................. failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Karate13.feature:10 - evaluation (js) failed: function()
+{
+  var tmp = Java.type('misc.automationConstants');
+  var constants = new tmp();
+  return Java.type('misc.automationConstants').QAurl) ;, javax.script.ScriptException: &lt;eval&gt;:5:52 Expected ; but found )&#13;
+  return Java.type('misc.automationConstants').QAurl) ;&#13;
+                                                    ^ in &lt;eval&gt; at line number 5 at column number 52
+stack trace: jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:470)&#13;
+	at ✽.* def env1 = (Karate13.feature:10)&#13;
+
+* def QAurl = call env1 ................................................... skipped
+* print QAurl ............................................................. skipped
+* print env1() ............................................................ skipped</failure>
+  </testcase>
+</testsuite>

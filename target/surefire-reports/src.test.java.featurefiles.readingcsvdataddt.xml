@@ -1,0 +1,57 @@
+<testsuite failures="0" name="src/test/java/featurefiles/readingcsvdataddt.feature" skipped="0" tests="5" time="0.032078">
+  <testcase classname="src.test.java.featurefiles.readingcsvdataddt" name="CSV data driven testing" time="0.00927">
+    <system-out>* print "1000, viswa, 40" ................................................. passed
+* def json1 = { "Last_name" : viswa} ...................................... passed
+* print json1 ............................................................. passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.featurefiles.readingcsvdataddt" name="CSV data driven testing" time="0.005492">
+    <system-out>* print "1000, viswa, 40" ................................................. passed
+* def json1 = { "Last_name" : viswa} ...................................... passed
+* print json1 ............................................................. passed
+* print "2000, nath, 41" .................................................. passed
+* def json1 = { "Last_name" : nath} ....................................... passed
+* print json1 ............................................................. passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.featurefiles.readingcsvdataddt" name="CSV data driven testing" time="0.006146">
+    <system-out>* print "1000, viswa, 40" ................................................. passed
+* def json1 = { "Last_name" : viswa} ...................................... passed
+* print json1 ............................................................. passed
+* print "2000, nath, 41" .................................................. passed
+* def json1 = { "Last_name" : nath} ....................................... passed
+* print json1 ............................................................. passed
+* print "3000, reddy, 42" ................................................. passed
+* def json1 = { "Last_name" : reddy} ...................................... passed
+* print json1 ............................................................. passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.featurefiles.readingcsvdataddt" name="CSV data driven testing" time="0.005764">
+    <system-out>* print "1000, viswa, 40" ................................................. passed
+* def json1 = { "Last_name" : viswa} ...................................... passed
+* print json1 ............................................................. passed
+* print "2000, nath, 41" .................................................. passed
+* def json1 = { "Last_name" : nath} ....................................... passed
+* print json1 ............................................................. passed
+* print "3000, reddy, 42" ................................................. passed
+* def json1 = { "Last_name" : reddy} ...................................... passed
+* print json1 ............................................................. passed
+* print "4000, chetu, 13" ................................................. passed
+* def json1 = { "Last_name" : chetu} ...................................... passed
+* print json1 ............................................................. passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.featurefiles.readingcsvdataddt" name="CSV data driven testing" time="0.005406">
+    <system-out>* print "1000, viswa, 40" ................................................. passed
+* def json1 = { "Last_name" : viswa} ...................................... passed
+* print json1 ............................................................. passed
+* print "2000, nath, 41" .................................................. passed
+* def json1 = { "Last_name" : nath} ....................................... passed
+* print json1 ............................................................. passed
+* print "3000, reddy, 42" ................................................. passed
+* def json1 = { "Last_name" : reddy} ...................................... passed
+* print json1 ............................................................. passed
+* print "4000, chetu, 13" ................................................. passed
+* def json1 = { "Last_name" : chetu} ...................................... passed
+* print json1 ............................................................. passed
+* print "5000, kalya, 12" ................................................. passed
+* def json1 = { "Last_name" : kalya} ...................................... passed
+* print json1 ............................................................. passed</system-out>
+  </testcase>
+</testsuite>

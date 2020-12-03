@@ -1,0 +1,8 @@
+<testsuite failures="0" name="src/test/java/featurefiles/karate03.feature" skipped="0" tests="1" time="0.060489">
+  <testcase classname="src.test.java.featurefiles.karate03" name="validation of xml 1" time="0.060489">
+    <system-out>Given def xml =  &lt;info&gt;&lt;id&gt;101&lt;/id&gt;&lt;tool&gt;&lt;name&gt;Karate&lt;/name&gt;&lt;version&gt;0.9.6&lt;/version&gt;&lt;/tool&gt;&lt;/info&gt; . passed
+Then print xml ............................................................ passed
+* match xml/info/id == 101 ................................................ passed
+* match xml.info.id == "101" .............................................. passed</system-out>
+  </testcase>
+</testsuite>

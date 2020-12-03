@@ -1,0 +1,24 @@
+<testsuite failures="0" name="src/test/java/featurefiles/karate01.feature" skipped="0" tests="2" time="0.068143">
+  <testcase classname="src.test.java.featurefiles.karate01" name="karate test case 3" time="0.054855">
+    <system-out>Given def a = 10 .......................................................... passed
+* def b = 20 .............................................................. passed
+When def c =  a + b ....................................................... passed
+Then assert c == 30 ....................................................... passed
+* print "C = " ,  c ....................................................... passed
+* karate.log("test ended") ................................................ passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.featurefiles.karate01" name="karate test case 3" time="0.013288">
+    <system-out>Given def a = 10 .......................................................... passed
+* def b = 20 .............................................................. passed
+When def c =  a + b ....................................................... passed
+Then assert c == 30 ....................................................... passed
+* print "C = " ,  c ....................................................... passed
+* karate.log("test ended") ................................................ passed
+Given def a = 50 .......................................................... passed
+* def b = 90 .............................................................. passed
+When def c =  a + b ....................................................... passed
+Then assert c == 140 ...................................................... passed
+* print "C = " ,  c ....................................................... passed
+* karate.log("test ended") ................................................ passed</system-out>
+  </testcase>
+</testsuite>
